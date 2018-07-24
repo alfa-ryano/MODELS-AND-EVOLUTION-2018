@@ -99,6 +99,9 @@
 %     also used for the TOC unless
 %     \toctitle is used
 %
+%\author{
+%Alfa Yohannis \and Horacio Hoyos Rodriguez$^{*}$ \and Fiona Polack$^{**}$ \and \\ Dimitris Kolovos
+%}
 \author{
 Alfa Yohannis$^{1,3}$ \and Horacio Hoyos Rodriguez$^{*1}$ \and Fiona Polack$^{**2}$ \and \\ Dimitris Kolovos$^{1}$
 }
@@ -111,12 +114,18 @@ Alfa Yohannis et al.
 %\tocauthor{Alfa Yohannis,Horacio Hoyos Rodriguez, Fiona Polack, Dimitris Kolovos}
 %\institute{anonym}
 
+%\institute{Department of Computer Science, University of York, United Kingdom\\
+%    $^{**}$School of Computing and Maths, Keele University, United Kingdom\\
+%\email{\{ary506, dimitris.kolovos\}@york.ac.uk
+%\\$^{*}$horacio\_hoyos\_rodriguez@ieee.org
+%\\$^{**}$f.a.c.polack@keele.ac.uk}}
+
 \institute{$^{1}$Department of Computer Science, University of York, United Kingdom\\
     $^{2}$School of Computing and Maths, Keele University, United Kingdom\\
-    $^{3}$Department of Computer Science, Institut Teknologi dan Bisnis KALBIS, Indonesia\\
-\email{\{ary506, dimitris.kolovos\}@york.ac.uk
-\\$^{*}$horacio\_hoyos\_rodriguez@ieee.org
-\\$^{**}$f.a.c.polack@keele.ac.uk}}
+    $^{3}$Department of Computer Science, Institut Teknologi dan Bisnis Kalbis, Indonesia\\
+    \email{\{ary506, dimitris.kolovos\}@york.ac.uk
+        \\$^{*}$horacio\_hoyos\_rodriguez@ieee.org
+        \\$^{**}$f.a.c.polack@keele.ac.uk}}
 
 \maketitle      % typeset the title of the contribution
 %The first states the problem. The second states why the problem is a problem. The third is my startling sentence. The fourth states the implication of my startling sentence.
@@ -550,7 +559,7 @@ Based on the evaluation results, the hybrid model persistence provides benefits 
 %and change detection 
 with an acceptable trade-off on memory footprint and storage space usage. 
 
-The work of using the hybrid model persistence for faster model comparison is still in the preliminary stage. So far, the result is promising. Based on our preliminary investigation, it can detect atomic changes of models faster than state-based model comparison, e.g. detecting elements that have been removed from older versions. In the future, we plan to evaluate hybrid model persistence on even larger models and perform experiments where software modellers are asked to construct change-based models. We also plan to develop a solution for the efficient merging of change-based and hybrid models. 
+Currently, we are still working on the hybrid model comparison (Section \ref{sec:hybrid_model_persistence} -- Comparing hybrid models). So far, the progress is promising. Based on our preliminary investigation, it can detect atomic changes of models faster than state-based model comparison, e.g. detecting elements that have been removed from older versions. In the future, we plan to evaluate hybrid model persistence on even larger models and perform experiments where software modellers are asked to construct change-based models. We also plan to develop a solution for the efficient merging of change-based and hybrid models. 
 
 \vspace{-10pt}
 \subsubsection*{Acknowledgements.} This work was partly supported by through a scholarship managed by \emph{Lembaga Pengelola Dana Pendidikan Indonesia} (Indonesia Endowment Fund for Education).
